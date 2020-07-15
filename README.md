@@ -4,9 +4,9 @@ Geek Twitterのテンプレです。cloneすれば誰でも、すぐにGeek Twit
 pre-commit のhookで、commit前に、`$ rubocop --auto-correct`が発火して、rubyコードのエラーチェック＆フォーマットを美しくします。
 
 ## バージョン
-Ruby ：　2.6.5
-Rails ：　6.0.3
-DB ：　postgreSQL 
+- Ruby ：　2.6.5
+- Rails ：　6.0.3
+- DB ：　postgreSQL 
 
 ## 最初にやること
 ```
