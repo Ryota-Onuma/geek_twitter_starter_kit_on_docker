@@ -39,4 +39,6 @@ $ docker-compose up
 
 - `application.scss`で、`@import "フォルダ名.scss";`を追記してください。
 
+
+詳しくは↓
 https://qiita.com/Ryota-Onuma/private/ac0eb20d23b7d2e75fd4
