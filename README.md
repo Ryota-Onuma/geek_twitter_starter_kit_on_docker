@@ -1,4 +1,6 @@
 # README
+Geek Twitter　のテンプレです。cloneすれば誰でも、すぐにGeek Twitterを作ることができます。
+
 pre-commit のhookで、commit前に、`$ rubocop --auto-correct`が発火して、rubyコードのエラーチェック＆フォーマットを美しくします。
 
 ## 最初にやること
