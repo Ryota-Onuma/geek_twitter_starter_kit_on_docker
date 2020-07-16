@@ -50,7 +50,7 @@ class LinebotController < ApplicationController
     type: 'text',
     text: params[:text]
    }
-                   user_id = params[:user_id]
+                 user_id = params[:user_id]
    response = client.push_message(user_id, message)
 
 
