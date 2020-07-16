@@ -1,0 +1,5 @@
+#room-index
+  - @rooms.each do |room|
+    = link_to room_path(room.user_id) do
+      h4 
+        = room.user_id

@@ -1,0 +1,10 @@
+ #talk-room
+  #talk-log
+    - @messages.each do |message|
+      span
+        = message.text
+  #chat-box
+    = form_with url: post_message_path, method: :post do |f|
+      = f.text_area :text, placeholder: 'メッセージを入力'
+      = f.hidden_field :user_id, :value => @room.user_id
+      = f.submit "送信"
