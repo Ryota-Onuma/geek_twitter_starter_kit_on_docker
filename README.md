@@ -22,6 +22,8 @@ $ git config pre-commit.ruby "docker-compose run --rm web bundle exec ruby"
 $ git config pre-commit.checks "[rubocop]"
 
 $ git config pre-commit.rubocop.flags "[-a]"
+
+$ docker-compose run --rm web bundle exec pre-commit install
 ```
 
 ## ポートフォワーディング
